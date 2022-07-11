@@ -6,7 +6,7 @@
 }
 
 body {
-    background: rgb(113, 133, 180);
+    background: rgb(70, 81, 108);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 .brand {
     padding: 10px;
-    color: rgb(48, 55, 112);
+    color: rgb(26, 11, 40);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
 }
@@ -24,7 +24,8 @@ body {
 .main-container {
     width: 450px;
     aspect-ratio: calc(9/19.5);
-    background: #fff;
+    background: url(./pic/wallpaper.jpg);
+    background-size: cover;
     border-radius: 40px;
     overflow: hidden;
 }
@@ -32,11 +33,14 @@ body {
 
 
 .status-bar {
-    background: rgb(109, 95, 161);
+    height: 40px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .status-bar .left {
@@ -47,5 +51,17 @@ body {
 }
 
 .pages {
+    width: 450px;
+    height: calc((19.5 / 9)*450px - 40px );
+    display: flex;
+    flex-direction: row;
+}
 
+.pages .page {
+    color: #fff;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(90, 138, 64, 0.422);
+    height: inherit;
+    width: inherit;
 }
