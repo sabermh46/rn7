@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(113, 133, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.brand {
+    padding: 10px;
+    color: rgb(48, 55, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.main-container {
+    width: 450px;
+    aspect-ratio: calc(9/19.5);
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+
+
+.status-bar {
+    background: rgb(109, 95, 161);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.status-bar .left {
+
+}
+.status-bar .right {
+
+}
+
+.pages {
+
+}
